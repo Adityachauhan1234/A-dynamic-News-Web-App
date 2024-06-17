@@ -1,0 +1,26 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+    content: [
+      "./index.html",
+      "./src/**/*.{js,ts,jsx,tsx}",
+    ],
+    theme: {
+      extend: {},
+      screens: {
+        'sm': '576px',
+      // => @media (min-width: 576px) { ... }
+
+      'md': '960px',
+      // => @media (min-width: 960px) { ... }
+
+      'lg': '1440px',
+      // => @media (min-width: 1440px) { ... }
+      },
+      colors : {
+        lightBg : "#E2E8F0",
+        lightBgPrimary : "#F8FAFC", 
+        lightBgSecondary : "#0F172A",
+      }
+    },
+    plugins: [],
+  }
