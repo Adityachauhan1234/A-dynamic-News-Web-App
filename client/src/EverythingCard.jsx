@@ -4,6 +4,9 @@ function Card(props) {
   return (
       <div className="everything-card flex flex-wrap p-5 gap-1 mb-1 mt-10">
         <b className="title">{props.title}</b>
+        <h1>
+          this is my title
+        </h1>
         <div className="everything-card-img mx-auto">
           <img className="everything-card-img" src={props.imgUrl} alt="img" />
         </div>
