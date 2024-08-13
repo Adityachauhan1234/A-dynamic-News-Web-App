@@ -1,2 +1,2 @@
-# News-Aggregator
+# A dynamic news web app
 Developed a dynamic news aggregator website using HTML, Tailwind CSS, ReactJs, NodeJs,ExpressJs and MongoDb. This application fetches and categorizes news articles in real-time via various APIs, providing users with an organized and seamless browsing experience. Key features include responsive design, efficient API integration, and a user-friendly interface, ensuring optimal performance and accessibility across devices.
